@@ -72,7 +72,11 @@ pages/_document.js (if you need to customize the HTML structure eg.font is linke
 pages/_document.js (have the bootstrap css framework within head)
 Note: while external bootstrap css using cdn link, the camelcase of the cross-origin keyword will be used(crossOrigin).
 
+// just like react server (uses react-router-dom), next server uses the /pages/ directory followed by that page name which is the url itself, get served to express server (and node runtime (node server)) runs that pages as routes.
 
+Note: Latest Next.js automatically includes the <meta charset="UTF-8" /> and <meta name="viewport" content="width=device-width, initial-scale=1" /> tags, so you can remove them from <head>
 
+# create components directory(mkdir)
+Have Layout (Header,Footer,index) for using the consistent layout within app.
 
 

@@ -67,3 +67,12 @@ pages/_document.js (if you need to customize the HTML structure eg.font is linke
 
 // Testing : 
 🚀 Working setup
+
+# let's basic setup
+pages/_document.js (have the bootstrap css framework within head)
+Note: while external bootstrap css using cdn link, the camelcase of the cross-origin keyword will be used(crossOrigin).
+
+
+
+
+

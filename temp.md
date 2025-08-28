@@ -77,6 +77,15 @@ Note: while external bootstrap css using cdn link, the camelcase of the cross-or
 Note: Latest Next.js automatically includes the <meta charset="UTF-8" /> and <meta name="viewport" content="width=device-width, initial-scale=1" /> tags, so you can remove them from <head>
 
 # create components directory(mkdir)
-Have Layout (Header,Footer,index) for using the consistent layout within app.
+Have Layout (Header,Footer,index) for using the same layout within app. (mkdir 'components' within frontend root dir).
 
+Within Layout comp, the header will have Responsive Navbar.
+
+Link component(of nextJS) for links(<a>) && href get relocate from, <a> to Link.
+
+Create static pages viz. About, Register, Login
+
+Summary of /page = any page(page/comp) created within '/page' get treated as route, (comp's have to be used within that).
+
+# auth pages (or user forms)
 

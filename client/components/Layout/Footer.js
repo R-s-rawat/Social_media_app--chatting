@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='d-flex align-items-center justify-content-center text-white bg-dark p-5'>
-        <h4>All rights reserved &copy; SocialEcho </h4>
+    <div className='d-flex align-items-center justify-content-center'>
+        <h4>All rights reserved &copy; SocialApp </h4>
     </div>
   )
 }

@@ -89,3 +89,8 @@ Summary of /page = any page(page/comp) created within '/page' get treated as rou
 
 # auth pages (or user forms)
 
+// VS CODE THING: install thunder client for testing within VS_CODE (instead postman if not saving)
+// Replacing Bootstrap with tailwind && js with ts.
+
+
+

@@ -79,9 +79,6 @@ Note: Latest Next.js automatically includes the <meta charset="UTF-8" /> and <me
 # create components directory(mkdir)
 Have Layout (Header,Footer,index) for using the consistent layout within app.
 
-# nextJS -> About to perform a full refresh
-Error: ReferenceError: Frontend_root_dir is not defined
-
 Have Layout (Header,Footer,index) for using the same layout within app. (mkdir 'components' within frontend root dir).
 
 Within Layout comp, the header will have Responsive Navbar.
@@ -92,4 +89,14 @@ Create static pages viz. About, Register, Login
 
 Summary of /page = any page(page/comp) created within '/page' get treated as route, (comp's have to be used within that).
 
+# nextJS -> About to perform a full refresh
+Error: ReferenceError: Frontend_root_dir is not defined
+
 Fast Refresh will perform a full reload when you edit a file that is imported by modules outside of the React rendering tree. It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh. Fast Refresh requires at least one parent function component in your React tree.
+
+# if we not use NextJS SSR: issue
+You’re not really using Next.js’s key power — dynamic rendering per request.
+
+SEO may be weaker if data is client-fetched (because bots may not wait for hydration).
+
+User sees a blank page until JS loads (slower first paint).

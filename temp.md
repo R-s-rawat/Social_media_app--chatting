@@ -80,8 +80,3 @@ Note: Latest Next.js automatically includes the <meta charset="UTF-8" /> and <me
 Have Layout (Header,Footer,index) for using the consistent layout within app.
 
 
-// VS CODE THING: install thunder client for testing within VS_CODE (instead postman if not saving)
-// Replacing Bootstrap with tailwind && js with ts.
-
-
-

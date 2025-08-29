@@ -1,13 +1,13 @@
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import Head  from "next/head";
+import Head from "next/head";
 
 const Layout = ({ children, title }) => {
   return (
     <>
       <Head>
-        <meta charSet="UTF-8" />
+        <meta charset="UTF-8" />
         {/* <meta name="description" content="Free Web tutorials"/>
   <meta name="keywords" content="HTML, CSS, JavaScript"/>
   <meta name="author" content="John Doe"/> */}
@@ -19,14 +19,14 @@ const Layout = ({ children, title }) => {
         <title>{title}</title>
       </Head>
       <Header />
-      <main>{children}</main>
+      <main style={{ minHeight: "70vh" }}>{children}</main>
       <Footer />
     </>
   );
 };
 
 Layout.defaultProps = {
-    title: "Social Media App"
-}
+  title: "Social Media App",
+};
 
 export default Layout;

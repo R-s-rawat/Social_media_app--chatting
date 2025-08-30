@@ -100,3 +100,11 @@ You’re not really using Next.js’s key power — dynamic rendering per reques
 SEO may be weaker if data is client-fetched (because bots may not wait for hydration).
 
 User sees a blank page until JS loads (slower first paint).
+
+# Render mode in nextJS
+Now PPR came in nextJS, previous are:
+| Render Mode      | How It Works in Next.js                                              | 
+| ---------------- | -------------------------------------------------------------------- | ----------------------------------- |
+| **SSR**          | Uses `getServerSideProps` to fetch and render data on each request   | 
+| **SSG / ISR**    | Uses `getStaticProps`/`getStaticPaths` at build or revalidation time | 
+| **CSR** (likely) | Pages fetch data client-side (e.g., via `useEffect`) after loading   |
